@@ -1,0 +1,155 @@
+export const products = [
+	{
+		id: '659ef215c93d160cddcfe58f',
+		name: 'iPhone 13',
+		price: 799.99,
+		imageURL:
+			'https://lcdn.altex.ro/resize/media/catalog/product/T/e/2bd48d28d1c32adea0e55139a4e6434a/Telefon_APPLE_iPhone_13_5G_128GB_Starlight_3_.jpg',
+		description: 'The latest iPhone with amazing features.',
+	},
+	{
+		id: '659ef215c93d160cddcfe590',
+		name: 'MacBook Pro 14-inch',
+		price: 1799.99,
+		imageURL:
+			'https://s13emagst.akamaized.net/products/41188/41187834/images/res_4c98933b07a8fd01207cc338b1e2d225.jpg',
+		description: 'Powerful and portable, perfect for professionals.',
+	},
+	{
+		id: '659ef215c93d160cddcfe591',
+		name: 'iPad Air (5th Gen)',
+		price: 499.99,
+		imageURL:
+			'https://s13emagst.akamaized.net/products/44228/44227350/images/res_d1bff231f494fa5e360f08634ddb12a2.jpg',
+		description: 'Thin, light, and powerful tablet for everyday use.',
+	},
+	{
+		id: '659ef215c93d160cddcfe592',
+		name: 'Apple Watch Series 7',
+		price: 399.99,
+		imageURL:
+			'https://lcdn.altex.ro/resize/media/catalog/product/A/P/2bd48d28d1c32adea0e55139a4e6434a/APPLE_Watch_Series_7_GPS_45mm_Blue_Aluminium_Case_Abyss_Blue_Sport_Band_2_.jpg',
+		description:
+			'Stay connected and track your fitness with the latest Apple Watch.',
+	},
+	{
+		id: '659ef215c93d160cddcfe593',
+		name: 'AirPods Pro',
+		price: 249.99,
+		imageURL:
+			'https://lcdn.altex.ro/resize/media/catalog/product/a/i/2bd48d28d1c32adea0e55139a4e6434a/airpods_pro_2_usb_c_1_50e657bf.jpg',
+		description: 'Premium wireless earbuds with active noise cancellation.',
+	},
+	{
+		id: '659ef215c93d160cddcfe594',
+		name: 'iMac 24-inch',
+		price: 1299.99,
+		imageURL:
+			'https://s13emagst.akamaized.net/products/36843/36842659/images/res_78caf14798ef32a49515b68308f588b1.jpg',
+		description: 'Stunning 24-inch all-in-one desktop computer.',
+	},
+	{
+		id: '659ef215c93d160cddcfe595',
+		name: 'Mac Mini',
+		price: 699.99,
+		imageURL:
+			'https://s13emagst.akamaized.net/products/33874/33873208/images/res_66145e022db9f26280584498feac4478.jpg',
+		description: "Compact and powerful desktop with Apple's M1 chip.",
+	},
+	{
+		id: '659ef215c93d160cddcfe596',
+		name: 'iPad Pro 12.9-inch (5th Gen)',
+		price: 1099.99,
+		imageURL:
+			'data:image/jpeg;base64,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',
+		description: 'The ultimate iPad for professionals, featuring the M1 chip.',
+	},
+	{
+		id: '659ef215c93d160cddcfe597',
+		name: 'Apple TV 4K',
+		price: 179.99,
+		imageURL:
+			'https://www.apple.com/newsroom/images/product/tv/standard/Apple-TV-4K-hero-221018.jpg.og.jpg?202310101931',
+		description: 'Enjoy 4K HDR content and powerful streaming capabilities.',
+	},
+	{
+		id: '659ef215c93d160cddcfe598',
+		name: 'Magic Keyboard',
+		price: 299.99,
+		imageURL: 'https://istyle.ro/media/catalog/product/m/k/mk2a3b_3.jpeg',
+		description: 'Wireless keyboard with a trackpad for Mac and iPad.',
+	},
+	{
+		id: '659ef215c93d160cddcfe599',
+		name: 'iPhone SE (2nd Gen)',
+		price: 399.99,
+		imageURL:
+			'data:image/jpeg;base64,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',
+		description:
+			'Compact iPhone with powerful features at an affordable price.',
+	},
+	{
+		id: '659ef215c93d160cddcfe59a',
+		name: 'Beats Studio Buds',
+		price: 149.99,
+		imageURL:
+			'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MJ503?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1621538312000',
+		description: 'True wireless earbuds with active noise cancellation.',
+	},
+	{
+		id: '659ef215c93d160cddcfe59b',
+		name: 'Apple Pencil (2nd Gen)',
+		price: 129.99,
+		imageURL:
+			'https://i0.wp.com/riazcomputer.com/wp-content/uploads/2023/03/APPLE-PENCIL-GEN-2-2-3.jpg?fit=2112%2C2560&ssl=1',
+		description: 'Precision stylus for iPad Pro and iPad Air.',
+	},
+	{
+		id: '659ef215c93d160cddcfe59c',
+		name: 'MacBook Air',
+		price: 999.99,
+		imageURL:
+			'https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg',
+		description: "Ultra-thin and lightweight laptop with Apple's M1 chip.",
+	},
+	{
+		id: '659ef215c93d160cddcfe59d',
+		name: 'HomePod mini',
+		price: 99.99,
+		imageURL:
+			'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/homepod-mini-og-202110?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1632930650000',
+		description: 'Compact smart speaker with powerful audio.',
+	},
+	{
+		id: '659ef215c93d160cddcfe59e',
+		name: 'Apple Leather Case for iPhone 13',
+		price: 49.99,
+		imageURL: 'https://i.ebayimg.com/images/g/8roAAOSwmcBh4N2P/s-l1200.webp',
+		description: 'Premium leather case designed for iPhone 13.',
+	},
+	{
+		id: '659ef215c93d160cddcfe59f',
+		name: 'Apple Watch SE',
+		price: 279.99,
+		imageURL:
+			'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/se-case-unselect-gallery-1-202309_FMT_WHH?wid=752&hei=720&fmt=p-jpg&qlt=80&.v=1692943833392',
+		description: 'Affordable yet powerful smartwatch with essential features.',
+	},
+	{
+		id: '659ef215c93d160cddcfe5a0',
+		name: 'AirTag',
+		price: 29.99,
+		imageURL:
+			'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-double-select-202104_FMT_WHH?wid=2000&hei=2000&fmt=jpeg&qlt=90&.v=1617761672000',
+		description:
+			"Track and find your items with Apple's location-aware accessory.",
+	},
+	{
+		id: '659ef215c93d160cddcfe5a1',
+		name: 'MagSafe Charger',
+		price: 39.99,
+		imageURL: 'https://mfono.com/wp-content/uploads/2023/05/41Mx1woAMYL.jpg',
+		description:
+			'Wireless charger with magnetic attachment for iPhone 12 and newer.',
+	},
+];
