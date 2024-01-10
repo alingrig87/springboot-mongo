@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://alin:alin123@cluster0.f4v5k.mongodb.net/?retryWrites=true&w=majority
+      database: products
+
